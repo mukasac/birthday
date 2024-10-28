@@ -1,9 +1,6 @@
-import BirthdayPlatform from '@/components/birthday-platform'
+// src/app/page.tsx
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <main>
-      <BirthdayPlatform />
-    </main>
-  )
+  redirect('/dashboard');
 }
